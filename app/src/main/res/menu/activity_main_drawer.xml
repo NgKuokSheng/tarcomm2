@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/news"
+            android:title="@string/news" />
+        <item
+            android:id="@+id/nav_complain"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="@string/complaint" />
+        <item
+            android:id="@+id/nav_confess"
+            android:icon="@drawable/confess"
+            android:title="@string/confess" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="@string/feedback" />
+        </group>
+    <group
+        android:id="@+id/menu_btm"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="@string/setting" />
+        <item
+        android:id="@+id/nav_logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="@string/logout" />
+
+    </group>
+
+
+
+</menu>
